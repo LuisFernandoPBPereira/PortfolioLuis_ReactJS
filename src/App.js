@@ -1,13 +1,13 @@
-import { BrowserRouter, Route, Switch } from "react-router-dom";
-import { Home } from "./pages/Home/Home.jsx";
+import  Home  from "./pages/Home/Home.jsx";
+import * as S from "./styles/global.js";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Switch>
-        <Route path="/" exact component={Home}/>
-      </Switch>
-    </BrowserRouter>
+    <div>
+      <Home/>
+      <S.GlobalStyle/>
+    </div>
+    
   );
 }
 
