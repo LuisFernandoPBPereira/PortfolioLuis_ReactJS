@@ -1,14 +1,19 @@
 import React from 'react'
 import * as S from "./styled.js"
 
-function Button() {
+function Button({label, isSubmit}) {
   return (
     <S.Button>
-        <div className='container'>
-            <a href="#">
-                <span>Button</span>
-            </a>
-        </div>
+      {isSubmit ?(
+        <button type='submit' className='container'>
+          <span id='label'>Enviar</span>
+        </button>
+      ) : (
+        <button className='container'>
+          <span id='label'>{label}</span>
+        </button>
+      )}
+        
     </S.Button>
   )
 }

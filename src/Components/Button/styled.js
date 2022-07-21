@@ -11,7 +11,7 @@ export const Button = styled.div`
         font-family: 'Poppins', sans-serif;
     }
 
-    .container a{
+    .container {
         position: relative;
         width: 160px;
         height: 60px;
@@ -20,27 +20,27 @@ export const Button = styled.div`
         margin: 20px;
     }
         
-    .container a:before,
-    .container a:after{
+    .container:before,
+    .container:after{
         content: '';
         position: absolute;
         inset: 0;
         background: #F00;
         transition: 0.5s;
-        background: linear-gradient(45deg, #0000FF, #00FF00, #FFFF00, #FF0000);
+       background: linear-gradient(45deg, #0000FF, #00FF00, #FFFF00, #FF0000); 
     }
 
-    .container a:hover:before{
+    .container:hover:before{
         inset: -3px;
     }
 
-    .container a:hover:after{
+    .container:hover:after{
         inset: -3px;
         filter: blur(10px);
     }
 
 
-    .container a span{
+    .container span{
         position: absolute;
         top: 0;
         left: 0;
@@ -59,7 +59,7 @@ export const Button = styled.div`
         border: 1px solid #040A29;
     }
 
-    .container a span::before{
+    .container span::before{
         content: '';
         position: absolute;
         top: 0;
@@ -69,5 +69,6 @@ export const Button = styled.div`
         background: rgba(255,255,255,0.075);
         transform: skew(25deg);
     }
+
 `
 

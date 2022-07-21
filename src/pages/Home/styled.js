@@ -3,9 +3,11 @@ import styled from "styled-components";
 export const Home = styled.div`
     
     .master{
-        background-color: #9400D3;
-        width: 100%;
-        height: 100%;
+        background-color: #191970;
+    }
+
+    .stacks{
+        margin: 50px 0 0 0;
     }
 
 `
