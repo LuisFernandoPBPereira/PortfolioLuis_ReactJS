@@ -66,8 +66,6 @@ export const Button = styled.div`
         left: -50%;
         width: 100%;
         height: 100%;
-        background: rgba(255,255,255,0.075);
-        transform: skew(25deg);
     }
 
 `

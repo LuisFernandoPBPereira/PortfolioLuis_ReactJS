@@ -29,10 +29,7 @@ export const StackIcons = styled.div`
 
     .divIcon {
         position: relative;
-
-
         background: #FFF;
-
     }
         
     .divIcon:before,
@@ -62,5 +59,9 @@ export const StackIcons = styled.div`
         width: 99%;
         height: 99%;
         padding: 10px;
+    }
+
+    .stacks{
+        margin: 0 0 80px 0;
     }
 `

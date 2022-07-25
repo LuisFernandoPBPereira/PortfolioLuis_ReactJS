@@ -1,13 +1,23 @@
 import React from 'react'
 import * as S from "./styled.js"
 
-function Button({label, isSubmit}) {
+function Button({label, isSubmit, isHref, href}) {
   return (
     <S.Button>
       {isSubmit ?(
         <button type='submit' className='container'>
           <span id='label'>Enviar</span>
         </button>
+      ) : (
+        <button className='container'>
+          <span id='label'>{label}</span>
+        </button>
+      ) 
+      &&
+      isHref ?(
+        <a className='container' href={href}>
+          <span id='label'>{label}</span>
+        </a>
       ) : (
         <button className='container'>
           <span id='label'>{label}</span>

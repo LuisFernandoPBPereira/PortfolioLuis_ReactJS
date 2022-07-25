@@ -1,11 +1,14 @@
 import React from 'react'
 import { IconsData } from './Icons'
 import * as S from "./styled.js"
+import Title from '../Title/Title'
 
 function StackIcons() {
   return (
     <S.StackIcons>
-        <div className='master'>            
+        <div className='master'>
+            {/* Aqui, eu apresento:
+            --- As minhas linguagens de programação */}        
             {IconsData.map(set => {
                 return(
                     <div className='divIcon'>
