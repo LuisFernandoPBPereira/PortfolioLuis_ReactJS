@@ -1,7 +1,6 @@
 import React from 'react'
 import { IconsData } from './Icons'
 import * as S from "./styled.js"
-import Title from '../Title/Title'
 
 function StackIcons() {
   return (

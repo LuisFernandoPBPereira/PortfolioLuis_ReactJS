@@ -1,7 +1,6 @@
 import React from 'react'
 import * as S from "./styled.js"
 import Button from '../Button/Button.jsx'
-import Title from '../Title/Title.jsx'
 
 function Navbar() {
   return (
