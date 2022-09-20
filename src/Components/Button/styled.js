@@ -12,13 +12,24 @@ export const Button = styled.div`
     }
 
     .container {
-        position: relative;
         width: 160px;
         height: 60px;
         display: inline-block;
         background: #FFF;
         margin: 20px;
+        border-radius: 10px;
+
+        background: linear-gradient(to right, var(--rgbColors));
+        position: relative;
+        z-index: 999;
+        animation: rgbColors 7s linear infinite;
+
     }
+    @keyframes rgbColors{
+        100%{
+            filter: hue-rotate(360deg);
+        }
+}
         
     .container:before,
     .container:after{
@@ -27,7 +38,8 @@ export const Button = styled.div`
         inset: 0;
         background: #F00;
         transition: 0.5s;
-       background: linear-gradient(45deg, #0000FF, #00FF00, #FFFF00, #FF0000); 
+        border-radius: 10px;
+       /* background: linear-gradient(45deg, #0000FF, #00FF00, #FFFF00, #FF0000);  */
     }
 
     .container:hover:before{
@@ -44,8 +56,8 @@ export const Button = styled.div`
         position: absolute;
         top: 0;
         left: 0;
-        width: 100%;
-        height: 100%;
+        width: 98%;
+        height: 95%;
         display: inline-block;
         background: #363636;
         z-index: 10;
@@ -56,17 +68,7 @@ export const Button = styled.div`
         text-transform: uppercase;
         letter-spacing: 2px;
         color: #FFF;
-        border: 1px solid #040A29;
+        border-radius: 6px 8px 8px 8px;
     }
-
-    .container span::before{
-        content: '';
-        position: absolute;
-        top: 0;
-        left: -50%;
-        width: 100%;
-        height: 100%;
-    }
-
 `
 

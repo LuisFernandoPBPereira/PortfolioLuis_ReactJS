@@ -13,7 +13,7 @@ export default function Introduction(){
             <div className="profile">
                 <ProfileImage/>
                 <div className="apresentation">
-                    <Title title="<Hello World!/>, meu nome é Luis!" />
+                    <Title isAnimatedTitle title="<Hello World!/>, meu nome é Luis!" />
                     <Title title="Seja Bem-vindo ao meu Portfólio!"/>
                 </div>
                 

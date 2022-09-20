@@ -7,7 +7,7 @@ function Navbar() {
     <S.Navbar>
         <div className='header'>
             <div className='titleHeader'>
-                <h1>Portifólio - Luis Fernando Dev</h1>
+                <h1>Luis_Fernando.Dev</h1>
             </div>
             <div className="main-header">
                 <nav className="headerMenu">    
