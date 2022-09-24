@@ -14,7 +14,7 @@ export const Introduction = styled.div`
         align-items: center;
         flex-wrap: wrap;
 
-        padding: 200px 0 0 0;
+        margin: 20px 0 0 0;
     }
 
     .apresentation{
@@ -24,4 +24,5 @@ export const Introduction = styled.div`
     .stacks{
         margin: 10px 0 40px 0;
     }
+
 `

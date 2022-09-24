@@ -18,6 +18,7 @@ export const Button = styled.div`
         background: #FFF;
         margin: 20px;
         border-radius: 10px;
+        border: none;
 
         background: linear-gradient(to right, var(--rgbColors));
         position: relative;
@@ -69,6 +70,7 @@ export const Button = styled.div`
         letter-spacing: 2px;
         color: #FFF;
         border-radius: 6px 8px 8px 8px;
+        font-weight: 600;
     }
 `
 

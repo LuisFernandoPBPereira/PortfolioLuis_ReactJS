@@ -11,28 +11,29 @@ export const StackIcons = styled.div`
         justify-content: center;
     }
 
-    /* div das luzes RGB */
     .divIcon{
         margin: 10px;
         color: var(--white);
         width: 300px;
         height: 300px;
         line-height: 25px;
-
         position: relative;
-
-        background: linear-gradient(to right, var(--rgbColors));
-        position: relative;
-        z-index: 999;       
-
+        z-index: 999;
+        
         p, h1{
             margin-top: 10px;
         }
     }
+    
+    /* div das luzes RGB */
+    .divRGB{
+        background: linear-gradient(to right, var(--rgbColors));
+        position: relative;
+    }
 
     /* transição do hover e a animação setada */
-    .divIcon:before,
-    .divIcon:after{
+    .divRGB:before,
+    .divRGB:after{
         content: '';
         position: absolute;
         inset: 0;
@@ -48,11 +49,11 @@ export const StackIcons = styled.div`
     }
 }
 
-    .divIcon:hover:before{
+    .divRGB:hover:before{
         inset: -3px;
     }
 
-    .divIcon:hover:after{
+    .divRGB:hover:after{
         inset: -6px;
     }
 

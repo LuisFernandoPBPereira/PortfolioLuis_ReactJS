@@ -2,6 +2,13 @@ import styled from "styled-components";
 
 export const Title = styled.div`
 
+/*      para o título animado funcionar,
+        coloque o tamanho em width e a animação:
+
+        width: tamanho em "ch" define a quantidade de letras;
+        animation: caret .2s step-end infinite alternate,
+        type velocidade em s steps(número de passos, end); */
+
     h1{
         font-weight: bolder;
         color: var(--white);
@@ -11,14 +18,11 @@ export const Title = styled.div`
     }
     
     .animated{
-        box-shadow: .4em 0 0 #05FFA3;
-        margin: 2rem 1rem;
-        width: 30ch;
+        box-shadow: .5em 0 0 #05FFA3;
+        margin: 4rem 1rem;
         overflow: hidden;
         color: #FFF;
         white-space: nowrap;
-        animation: caret .2s step-end infinite alternate,
-        type 5s steps(32, end);
     }
 
     @keyframes type{

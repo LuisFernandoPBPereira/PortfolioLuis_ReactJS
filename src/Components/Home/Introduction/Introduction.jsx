@@ -5,6 +5,8 @@ import ProfileImage from "../../ImageProfile/ImageProfile";
 import SocialMedia from "../../Social-Media/SocialMedia.jsx";
 
 export default function Introduction(){
+
+    
     return(
         <S.Introduction>
             {/* Aqui, eu apresento:
@@ -13,7 +15,8 @@ export default function Introduction(){
             <div className="profile">
                 <ProfileImage/>
                 <div className="apresentation">
-                    <Title isAnimatedTitle title="<Hello World!/>, meu nome é Luis!" />
+                    <Title title="<Hello World!/>, meu nome é Luis!" />
+                    <br /><br />
                     <Title title="Seja Bem-vindo ao meu Portfólio!"/>
                 </div>
                 

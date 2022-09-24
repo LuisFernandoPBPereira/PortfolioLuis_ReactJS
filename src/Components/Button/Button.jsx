@@ -1,7 +1,8 @@
 import React from 'react'
 import * as S from "./styled.js"
+import {Link} from "react-router-dom"
 
-function Button({label, isSubmit, isHref, href}) {
+function Button({label, isSubmit, isHref, href, location}) {
   return (
     <S.Button>
       {isSubmit ?(
@@ -9,9 +10,11 @@ function Button({label, isSubmit, isHref, href}) {
           <span id='label'>Enviar</span>
         </button>
       ) : (
-        <button className='container'>
-          <span id='label'>{label}</span>
-        </button>
+        <Link to={location}>
+          <button className='container'>
+            <span id='label'>{label}</span>
+          </button>
+        </Link>
       ) 
       &&
       isHref ?(
@@ -19,9 +22,11 @@ function Button({label, isSubmit, isHref, href}) {
           <span id='label'>{label}</span>
         </a>
       ) : (
-        <button className='container'>
-          <span id='label'>{label}</span>
-        </button>
+        <Link to={location}>
+          <button className='container'>  
+            <span id='label'>{label}</span>
+          </button>
+        </Link>
       )}
         
     </S.Button>

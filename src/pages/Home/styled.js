@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Home = styled.div`
     
     .master{
-        background-color: #191970;
+        background-color: var(--primary-color);
     }
 
     .stacks{

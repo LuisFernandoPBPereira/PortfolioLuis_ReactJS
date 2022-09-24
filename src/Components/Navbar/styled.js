@@ -6,7 +6,7 @@ export const Navbar = styled.div`
     background: linear-gradient(to bottom, rgba(255, 49, 55, 1.0), rgba(255, 49, 55, 0.8),rgba(255, 49, 55, 0.6),rgba(255, 49, 55, 0.4),rgba(255, 49, 55, 0.2));
     padding: 15px 0px;  
     width: 100%;
-    position: absolute;
+    /* position: absolute; */
     
     *
     {
@@ -15,18 +15,13 @@ export const Navbar = styled.div`
     
 
     .main-header{
-        z-index: 999;
+        /* z-index: 999; */
         display: flex;
         flex-direction: row;
-        justify-content: flex-end;
         align-items: center;
         flex-wrap: wrap;
     }
 
-    .headerMenu {
-        display: inline-block;
-        margin-top: 22px;
-    }
     .headerMenu ul li {
         display: inline-block; /*Deixa os textos alinhados na direta , horizontal*/
     }
@@ -43,7 +38,7 @@ export const Navbar = styled.div`
     }
 
     .header{
-        z-index: 999;
+        /* z-index: 999; */
         display: flex;
         justify-content: center;
         align-items: center;
@@ -54,12 +49,12 @@ export const Navbar = styled.div`
             color: var(--white);
         }
 
-        .titleHeader{
-            display: flex;
-            flex-direction: row;
-            justify-content: flex-start;
-        }
+    }
 
+    .mainTitle{
+        width: 17ch;
+        animation: caret .2s step-end infinite alternate,
+        type 2s steps(17, end);
     }
 
 `

@@ -10,7 +10,7 @@ function StackIcons() {
             --- As minhas linguagens de programação */}        
             {IconsData.map(set => {
                 return(
-                    <div className='divIcon'>
+                    <div className='divIcon divRGB'>
                         <div className='divAux'>
                             <img className='icon' src={set.icon}/><h1>{set.title}</h1>
                             <p>{set.text}</p>
