@@ -10,4 +10,4 @@
 <br>
 
 <h2>Prévia:</h2>
-<img src="https://user-images.githubusercontent.com/86135150/220234851-921747e8-2681-4b1d-8019-2684c6d0266c.png">
+<img src="https://user-images.githubusercontent.com/86135150/220236088-2ea84f8b-63cc-4a86-8f63-311d0baf19e8.png">
