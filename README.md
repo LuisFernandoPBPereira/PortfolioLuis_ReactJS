@@ -8,8 +8,6 @@
   e um pouco sobre minha personalidade e gostos relacionados à hobbies.
 </p>
 <br>
-<br>
 
 <h2>Prévia:</h2>
-<img src="https://user-images.githubusercontent.com/86135150/192080625-bae792db-e3f1-4117-85e0-135aa3aca658.png">
-
+<img src="https://user-images.githubusercontent.com/86135150/220236088-2ea84f8b-63cc-4a86-8f63-311d0baf19e8.png">
