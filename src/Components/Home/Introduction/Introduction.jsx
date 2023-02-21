@@ -1,6 +1,6 @@
 import * as S from "./styled.js";
 import Title from "../../Title/Title";
-import StackIcons from "../../Stack-Icons/StackIcons";
+import MyProjects from "../../MyProjects/MyProjects.jsx";
 import ProfileImage from "../../ImageProfile/ImageProfile";
 import SocialMedia from "../../Social-Media/SocialMedia.jsx";
 
@@ -22,9 +22,9 @@ export default function Introduction(){
                 
             </div>
             <div className="stacks">
-                <Title className="title" title="Aqui estão as minhas stacks:"/>
+                <Title className="title" title="Aqui estão os meus projetos, clique em algum para ver!"/>
             </div>  
-            <StackIcons/>
+            <MyProjects/>
             <SocialMedia/>
         </S.Introduction>
     )

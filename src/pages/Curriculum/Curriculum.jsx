@@ -43,14 +43,14 @@ function Curriculum() {
                 </div>
                 <div>
                     <p>
-                    Ensino fundamental completo. <br />
+                    Ensino Fundamental Completo. <br />
                     Escola Estadual Carlos Koch <br />
                     Término em dezembro de 2019.
                     </p>
                 </div>
                 <div>
                     <p>
-                    Cursando Ensino Médio. <br />
+                    Ensino Médio Completo <br />
                     Escola Estadual Maria Auxiliadora <br />
                     Término em dezembro de 2022
                     </p>

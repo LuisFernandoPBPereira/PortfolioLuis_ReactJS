@@ -15,7 +15,7 @@ function Navbar() {
                 <nav className="headerMenu">    
                     <ul>
                         <li>
-                            <Button label="Sobre Mim" location="/about"/>
+                            <Button label="Minhas Stacks" location="/mystacks"/>
                         </li>
                         <li>
                             <Button label="Currículo" location="/curriculum"/>
