@@ -81,12 +81,7 @@ function Curriculum() {
 
             {/* ========================================================================== */}
 
-            <div className='moreAboutMe'>
-                <Title className="subtitle" title="Experiências Anteriores" isSubtitle/>
-                <br />
-                <p>Assistente Técnico de Aparelhos Eletrônicos</p>
-                <br /><br />
-                
+            <div className='moreAboutMe'>                
                 <Title className="subtitle" title="Informações Complementares" isSubtitle/>
                 <br />
                 <p>
