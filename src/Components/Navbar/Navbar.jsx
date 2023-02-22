@@ -13,14 +13,8 @@ function Navbar() {
             </div>
             <div className="main-header">
                 <nav className="headerMenu">    
-                    <ul>
-                        <li>
-                            <Button label="Minhas Stacks" location="/mystacks"/>
-                        </li>
-                        <li>
-                            <Button label="Currículo" location="/curriculum"/>
-                        </li>
-                    </ul>
+                    <Button label="Minhas Stacks" location="/mystacks"/>
+                    <Button label="Currículo" location="/curriculum"/>
                 </nav>
             </div>
         </div>

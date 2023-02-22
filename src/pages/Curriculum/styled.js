@@ -47,6 +47,7 @@ export const Curriculum = styled.div`
         .goToHome{
             display: flex;
             justify-content: center;
+            padding: 20px;
         }
     }
 `

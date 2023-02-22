@@ -22,19 +22,9 @@ export const Navbar = styled.div`
         flex-wrap: wrap;
     }
 
-    .headerMenu ul li {
-        display: inline-block; /*Deixa os textos alinhados na direta , horizontal*/
-    }
-    .headerMenu i {
-        border: 2.2px solid transparent;
-        background-color: var(--primary-color);
-        border-radius: 7px;
-        color: var(--white);
-        padding: 4px 15px;
-        margin: 0 10px 0 0;
-        font-size: 1.2rem;
-        cursor: pointer;
-        transition: 0.7s;
+    .headerMenu {
+        display: flex;
+        gap: 20px;
     }
 
     .header{
@@ -43,7 +33,7 @@ export const Navbar = styled.div`
         justify-content: center;
         align-items: center;
         flex-wrap: wrap;
-        gap: 40px;
+        gap: 50px;
         
         h1{
             color: var(--white);
@@ -54,7 +44,7 @@ export const Navbar = styled.div`
     .mainTitle{
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
         font-style: italic;
-        width: 17ch;
+        width: 15.5ch; 
         animation: caret .2s step-end infinite alternate,
         type 2s steps(17, end);
     }

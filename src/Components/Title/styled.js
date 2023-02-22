@@ -14,12 +14,12 @@ export const Title = styled.div`
         color: var(--white);
         text-align: center;
         padding-top: 20px;
-        font-size: 40px;
+        font-size: 35px;
     }
     
     .animated{
-        box-shadow: .5em 0 0 #05FFA3;
-        margin: 4rem 1rem;
+        box-shadow: .1em 0 0 #05FFA3;
+        margin: 1.5rem 0;
         overflow: hidden;
         color: #FFF;
         white-space: nowrap;
