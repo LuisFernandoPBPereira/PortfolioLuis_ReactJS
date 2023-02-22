@@ -16,7 +16,7 @@ export const Button = styled.div`
         height: 60px;
         display: inline-block;
         background: #FFF;
-        margin: 20px;
+        /* margin: 20px; */
         border-radius: 10px;
         border: none;
 

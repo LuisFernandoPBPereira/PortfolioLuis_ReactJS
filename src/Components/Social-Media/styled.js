@@ -15,6 +15,7 @@ export const SocialMedia = styled.div`
         align-items: center;
         flex-direction: column;
         margin: 30px 30px;
+        gap: 20px;
     }
 
     img, svg{

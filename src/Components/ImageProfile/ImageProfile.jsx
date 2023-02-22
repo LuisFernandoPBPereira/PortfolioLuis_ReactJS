@@ -9,7 +9,7 @@ function ImageProfile() {
     <Stack direction="row" spacing={2}>
       <Avatar alt="Imagem de Perfil"
               src={ProfileImage}
-              sx={{ width: 400, height: 400 }}/>
+              sx={{ width: 350, height: 350 }}/>
     </Stack>
   )
 }
