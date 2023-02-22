@@ -17,7 +17,7 @@ export const SocialMedia = styled.div`
         margin: 30px 30px;
     }
 
-    img{
+    img, svg{
         width: 100px;
         height: 100px;
     }
