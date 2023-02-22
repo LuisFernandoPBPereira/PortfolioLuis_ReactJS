@@ -10,7 +10,7 @@ export const Navbar = styled.div`
     
     *
     {
-        font-family: 'Poppins', sans-serif;
+        font-weight: bold;
     }
     
 
@@ -52,6 +52,8 @@ export const Navbar = styled.div`
     }
 
     .mainTitle{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-style: italic;
         width: 17ch;
         animation: caret .2s step-end infinite alternate,
         type 2s steps(17, end);

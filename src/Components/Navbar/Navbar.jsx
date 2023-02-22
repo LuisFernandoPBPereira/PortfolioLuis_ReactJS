@@ -9,7 +9,7 @@ function Navbar() {
     <S.Navbar>
         <div className='header'>
             <div className='titleHeader'>
-                <Link to="/"><Title isAnimatedTitle className="mainTitle" title="Luis_Fernando.Dev"/></Link>
+                <Link to="/"><Title isAnimatedTitle className="mainTitle" title="Luis_Fernando.DEV"/></Link>
             </div>
             <div className="main-header">
                 <nav className="headerMenu">    
