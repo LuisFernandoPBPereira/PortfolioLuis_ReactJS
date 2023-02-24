@@ -5,9 +5,9 @@ import * as S from './styled.js'
 function MyProjects() {
   return (
     <S.MyProjects>
-        {projectsData.map(set => {
+        {projectsData.map((set, index) => {
                 return(
-                    <a href={set.link}>
+                    <a key={index} href={set.link}>
                         <div className='divIcon divRGB'>
                             <div className='divAux'>
                                 <img className='icon' src={set.thumb}/><h1>{set.title}</h1>
