@@ -18,7 +18,7 @@ export const GlobalStyle = createGlobalStyle`
         --background-light    : #4F4F4F;
         --background-dark     : #202024;
 
-        --primary-color       : #191970;
+        --primary-color       : rgb(25, 25, 200);
     }
 
     /* Scrol */
