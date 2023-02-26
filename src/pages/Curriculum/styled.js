@@ -15,22 +15,13 @@ export const Curriculum = styled.div`
         align-items: center;
     }
 
-    /* título animado */
-    .mainTitle{
-        width: 17ch;
-        animation: caret .2s step-end infinite alternate,
-        type 2s steps(17, end);
-
-        text-align: center;
-    }
-
     .subtitle{
         color: var(--white);
     }
 
     /* informação do currículo */
     .information{
-        margin: 0 15% 0 15%;
+        margin: 0 12% 0 12%;
 
         p{
             color: var(--white);
@@ -41,7 +32,7 @@ export const Curriculum = styled.div`
 
         .education{
             display: flex;
-            justify-content: space-between;
+            /* justify-content: space-between; */
             flex-wrap: wrap;
             
             div{
