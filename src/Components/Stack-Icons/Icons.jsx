@@ -5,6 +5,11 @@ export const IconsData = [
         "text":"Minha linguagem preferida e que tenho um maior domínio."
     },
     {
+        "icon":"https://user-images.githubusercontent.com/86135150/196008212-d0fcf24d-cff9-4579-b171-afda4290aee9.svg",
+        "title":"TypeScript",
+        "text":"É um superconjunto sintático estrito de JavaScript e adiciona tipagem estática opcional à linguagem."
+    },
+    {
         "icon":"https://raw.githubusercontent.com/get-icon/geticon/master/icons/css-3.svg",
         "title":"CSS",
         "text":"Linguagem de estilização, muito usada no Front-end das aplicações web."

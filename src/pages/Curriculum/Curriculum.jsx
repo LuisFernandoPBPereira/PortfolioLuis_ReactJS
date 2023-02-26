@@ -3,6 +3,9 @@ import * as S from "./styled.js"
 import Title from '../../Components/Title/Title.jsx'
 import Navbar from '../../Components/Navbar/Navbar.jsx'
 import Button from '../../Components/Button/Button.jsx'
+import { Education } from './Education.jsx'
+import {StackIcons} from "../../Components/Stack-Icons/styled.js"
+import SchoolIcon from '@mui/icons-material/School';
 
 function Curriculum() {
   return (
@@ -30,32 +33,26 @@ function Curriculum() {
             
 
             {/* ========================================================================== */}
-            
+            <StackIcons>            
             <Title className="subtitle" title="Educação" isSubtitle/>
             <br />
-            <div className='education'>  
-                <div>
-                    <p>
-                    Técnico em Desenvolvimento de Sistemas. <br />
-                    Etec de Embu – Ensino Técnico completo. <br />
-                    Término em julho de 2022.
-                    </p>
+                <div className='education'>
+                    {Education.map((set, index) => {
+                        return(
+                            <div key={index} className="divIcon divRGB">
+                                <div className='divAux'>
+                                    <SchoolIcon fontSize='large'/>
+                                    <h2>{set.education}</h2> <br />
+                                    <p>
+                                    {set.school} <br />
+                                    {set.date}
+                                    </p>
+                                </div>
+                            </div>
+                        )
+                    })}  
                 </div>
-                <div>
-                    <p>
-                    Ensino Fundamental Completo. <br />
-                    Escola Estadual Carlos Koch <br />
-                    Término em dezembro de 2019.
-                    </p>
-                </div>
-                <div>
-                    <p>
-                    Ensino Médio Completo <br />
-                    Escola Estadual Maria Auxiliadora <br />
-                    Término em dezembro de 2022
-                    </p>
-                </div>
-            </div>
+            </StackIcons>
             <br />
 
             {/* ========================================================================== */}
