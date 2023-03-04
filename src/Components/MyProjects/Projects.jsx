@@ -12,6 +12,12 @@ export const projectsData = [
         "link":"https://crud-js-cadastro-de-pessoas-pi.vercel.app/"
     },
     {
+        "thumb":"https://raw.githubusercontent.com/tomchen/stack-icons/master/logos/react.svg",
+        "title":"Calculadora React.JS",
+        "description":"Uma calculadora feita apenas em React.JS",
+        "link":"https://calculator-react-js-chi.vercel.app/" 
+    },
+    {
         "thumb":"https://raw.githubusercontent.com/get-icon/geticon/master/icons/javascript.svg",
         "title":"Rocketpay",
         "description":"Um site produzido com auxílio da Rocketseat no evento Explorer-lab, nele trabalhamos um formulário para fazer alterações no front-end.",
