@@ -18,6 +18,12 @@ export const projectsData = [
         "link":"https://calculator-react-js-chi.vercel.app/" 
     },
     {
+        "thumb":"https://raw.githubusercontent.com/tomchen/stack-icons/master/logos/react.svg",
+        "title":"Github Finder",
+        "description":"Um buscador de perfis do Github, juntamente com seus repositórios, feito em React.JS",
+        "link":"https://github-finder-three-cyan.vercel.app/" 
+    },
+    {
         "thumb":"https://raw.githubusercontent.com/get-icon/geticon/master/icons/javascript.svg",
         "title":"Rocketpay",
         "description":"Um site produzido com auxílio da Rocketseat no evento Explorer-lab, nele trabalhamos um formulário para fazer alterações no front-end.",
