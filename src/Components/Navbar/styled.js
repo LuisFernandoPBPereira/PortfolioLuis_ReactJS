@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const Navbar = styled.div`
     @import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
     
-    background: linear-gradient(to bottom, rgba(255, 49, 55, 1.0), rgba(255, 49, 55, 0.8),rgba(255, 49, 55, 0.6),rgba(255, 49, 55, 0.4),rgba(255, 49, 55, 0.0));
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 1.0), rgba(0, 0, 0, 0.8),rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.0));
     padding: 15px 0px;  
     width: 100%;
     
