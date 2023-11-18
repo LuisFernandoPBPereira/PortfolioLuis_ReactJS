@@ -12,6 +12,18 @@ export const projectsData = [
         "link":"https://crud-js-cadastro-de-pessoas-pi.vercel.app/"
     },
     {
+        "thumb":"https://raw.githubusercontent.com/gilbarbara/logos/bea0759cf5fbfaad7e92e6032ff9481dd82de561/logos/dotnet.svg",
+        "title":"MVC de Games C#",
+        "description":"Um CRUD MVC feito em ASP.Net, C# usando .Net 5.0",
+        "link":"https://github.com/LuisFernandoPBPereira/MVC_Games_CSharp"
+    },
+    {
+        "thumb":"https://raw.githubusercontent.com/get-icon/geticon/master/icons/javascript.svg",
+        "title":"CalcBhaskara",
+        "description":"Uma calculadora de equação do 2º grau (Bhaskara)",
+        "link":"https://calcbhaskara.vercel.app/"
+    },
+    {
         "thumb":"https://raw.githubusercontent.com/tomchen/stack-icons/master/logos/react.svg",
         "title":"Calculadora React.JS",
         "description":"Uma calculadora feita apenas em React.JS",

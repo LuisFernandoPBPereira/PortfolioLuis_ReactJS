@@ -40,9 +40,24 @@ export const IconsData = [
         "text":"C#, uma das linguagens C que tenho facilidade em manusear."
     },
     {
+        "icon":"https://raw.githubusercontent.com/gilbarbara/logos/bea0759cf5fbfaad7e92e6032ff9481dd82de561/logos/dotnet.svg",
+        "title":".NET",
+        "text":".NET é uma plataforma da qual uma das linguagens que a pertence é C#, usada para diversos fins"
+    },
+    {
         "icon":"https://raw.githubusercontent.com/tomchen/stack-icons/master/logos/c-plusplus.svg",
         "title":"C++",
         "text":"Linguagem da qual utilizo nos projetos arduino."
+    },
+    {
+        "icon":"https://raw.githubusercontent.com/tomchen/stack-icons/master/logos/c.svg",
+        "title":"C",
+        "text":"Estou aprendendo C para fins didáticos."
+    },
+    {
+        "icon":"https://raw.githubusercontent.com/tomchen/stack-icons/master/logos/python.svg",
+        "title":"Python",
+        "text":"Tive contato com python na ETEC apenas para fins didáticos."
     },
     {
         "icon":"https://raw.githubusercontent.com/tomchen/stack-icons/master/logos/batch.svg",
