@@ -24,6 +24,12 @@ export const projectsData = [
         "link":"https://calcbhaskara.vercel.app/"
     },
     {
+        "thumb":"https://raw.githubusercontent.com/get-icon/geticon/master/icons/javascript.svg",
+        "title":"MatHelp",
+        "description":"Projeto desenvolvido em grupo pela matéria de Construção de Algoritmos e Programação na UNASP, este projeto se destina para pessoas que tem dificuldade em noções básicas de matemática.",
+        "link":"https://mathelpcap.vercel.app/"
+    },
+    {
         "thumb":"https://raw.githubusercontent.com/tomchen/stack-icons/master/logos/react.svg",
         "title":"Calculadora React.JS",
         "description":"Uma calculadora feita apenas em React.JS",
